@@ -1,0 +1,19 @@
+[package]
+name = "tmp"
+description = "A playground"
+version = "0.0.1"
+authors = ["Alan Jeffrey"]
+license = "MPL-2.0"
+edition = "2018"
+publish = false
+
+[[bin]]
+name = "gotmpgo"
+path = "main.rs"
+
+[dependencies]
+euclid = "0.20"
+sparkle = "0.1"
+surfman = { version = "0.1.2", features = ["sm-osmesa"] }
+surfman-chains = "0.2"
+surfman-chains-api = "0.2"
