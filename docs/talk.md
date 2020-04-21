@@ -31,6 +31,28 @@ Oh yes *so many slides*.
 
 <section>
 
+# Look some Rust
+
+```rust
+fn main() {
+  println!("Hello");
+}
+```
+
+</section>
+
+<section>
+
+# Look some HTML
+
+```html
+<p>Hello</p>
+```
+
+</section>
+
+<section>
+
 # Thank you
 
 for coming to my TED talk.
