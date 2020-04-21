@@ -11,3 +11,5 @@ and
 <p>Hello</p>
 ```
 Gosh.
+
+* [A talk]({{ site.baseurl }}{% link talk.md %})

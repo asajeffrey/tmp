@@ -1,0 +1,3 @@
+# This Gemfile is used for testing jekyll locally
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
