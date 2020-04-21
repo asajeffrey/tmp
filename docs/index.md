@@ -1,15 +1,16 @@
 ## Testing out github pages
 
-This is some markdown including
-```rust
-fn main() {
-   println!("Hello");
-}
-```
-and
-```html
-<p>Hello</p>
-```
-Gosh.
+* [A talk, written in markdown, using reveal.js]({{ site.baseurl }}{% link talk.md %})
 
-* [A talk]({{ site.baseurl }}{% link talk.md %})
+## Trying out locally
+
+Install:
+```
+sudo apt-get install ruby ruby-dev
+gem install bundler
+bundle install
+```
+then from inside the `docs` directory
+```
+bundle exec jekyll serve
+```
